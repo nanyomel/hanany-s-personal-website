@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Experience - Nany's Space 🌸</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* 🌸 Scroll to Top Button Style */
+        #scrollBtn {
+          display: none;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: #ff66b2;
+          color: white;
+          cursor: pointer;
+          padding: 12px;
+          border-radius: 50%;
+          transition: 0.3s;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        #scrollBtn:hover {
+          background-color: #ff4d94;
+          transform: scale(1.1);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>🌸 My Work Experience 🌸</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="emoji-line">🌸🌼🌷🌺🌼🌸🌹🌷🌸🌼</div>
+    <main>
+        <section class="experience-section">
+            <h2>🌼 My Lovely Experience  Journey 🌼</h2>
+
+            <div class="experience-container">
+                <div class="experience-item">
+                    <img src="images/pizzzahut.jpg" alt="pizzzahut" class="experience-img">
+                    <h3>PizzaHut at Aman Central</h3>
+                    <p><strong>Duration:</strong> June 2024 - August 2024</p>
+                    <p>I worked at Pizza Hut during the semester break to earn extra money. I learned to <strong>communicate with customers and learned to manage finances well</strong>.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/pakdin.jpg" alt="Pakdin" class="experience-img">
+                    <h3>Warung PakDin One Dollar</h3>
+                    <p><strong>Duration:</strong> Throughout the month of Ramadan</p>
+                    <p>Responsible for <strong>preparing food for moreh</strong> from 9pm to 5am. I have to cook raw food. I work to gain experience and to earn pocket money to enter the new semester.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/intern.jpg" alt="Project Manager" class="experience-img">
+                    <h3>Internship at Wisma Kedah</h3>
+                    <p><strong>Duration:</strong> July 2025- September 2025</p>
+                    <p>I did Industrial Training at Wisma Darul Aman for two months to <strong>complete the subject for my final semester</strong>. I was given the responsibility of preparing reports and involved in external activities such as collecting rent payments in housing areas.</p>
+                </div>
+				
+				<div class="experience-item">
+                    <img src="images/kabumaggi.jpg" alt="kabumaggi" class="experience-img">
+                    <h3>Selling Kerabu Maggi at UITM</h3>
+                    <p><strong>Duration:</strong> September 2025 - Novemver 2025</p>
+                    <p>I sell kerabu maggi at a cheap price of RM5 to all college in UITM. I <strong>prepare the ingredients and send orders</strong> to the lobbie at all colleges. My kerabu maggi has received a good response and has managed to make a profit of RM300 a month</p>
+                </div>
+            </div>
+        </section>
+
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="audio/audiopage.mp3" type="audio/mpeg">
+Your browser does not support the audio element.
+</audio>
+        <div class="emoji-line">🌸🌼🌷🌺🌼🌸</div>
+
+        <button onclick="topFunction()" id="scrollBtn" title="Go to top">↑</button>
+		
+        <footer>
+            © 2025 Nany's Space | Designed with 💖 by Hanany Isyirah
+        </footer>
+    </main>
+
+    <script>
+    var scrollBtn = document.getElementById("scrollBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    </script>
+</body>
+</html>
+
+

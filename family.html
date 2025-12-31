@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Family - Nany's Space 🌸</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;600&family=Quicksand:wght@500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+
+    <style>
+        /* 🌸 Scroll to Top Button Style */
+        #scrollBtn {
+          display: none;
+          position: fixed;
+          bottom: 30px;
+          right: 30px;
+          z-index: 99;
+          font-size: 18px;
+          border: none;
+          outline: none;
+          background-color: #ff66b2;
+          color: white;
+          cursor: pointer;
+          padding: 12px;
+          border-radius: 50%;
+          transition: 0.3s;
+          box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+        }
+
+        #scrollBtn:hover {
+          background-color: #ff4d94;
+          transform: scale(1.1);
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>🌸 My Beloved Family 🌸</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="biodata.html">Biodata</a>
+        <a href="experience.html">Experience</a>
+        <a href="education.html">Education</a>
+        <a href="family.html">Family</a>
+        <a href="gallery.html">Gallery</a>
+        <a href="contact.html">Contact</a>
+    </nav>
+
+    <div class="emoji-line">🌸🌼🌷🌺🌼🌸🌹🌷🌸🌼</div>
+    <main>
+        <section class="experience-section">
+            <h2>My Lovely Family Moments 👨‍👩‍👧💗</h2>
+
+            <div class="experience-container">
+
+                <div class="experience-item">
+                    <img src="images/ibu.jpg" alt="Mother" class="experience-img">
+                    <h3>My Beautiful Mother</h3>
+                    <p><strong>Name:</strong> NorHalida binti Johari </p>
+                    <p>She is caring, loving and always supports me in everything I do.  
+                    She is the heart of our family and the most patient person I know because she is the one who takes care of us all even without a father. my mother is very strong to earn a living for all of us.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/ibu2.jpg" alt="Father" class="experience-img">
+                    <h3>My Mothers Job</h3>
+                    <p><strong>Job:</strong> Nurse</p>
+                    <p>My mother works at Alor Setar Hospital. My mother's working experience is 25 years, starting from working in Bukit Besar to Alor Setar because she was promoted.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/kakak.jpg" alt="Family Photo" class="experience-img">
+                    <h3>My Eldest Sister</h3>
+                    <p>My sister's name is <strong>Nur Ismahani Amira</strong> who is 24 years old. She is a student from the faculty of information science from UITM Machang. She is very attentive to her younger siblings.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/kakngah.jpg" alt="Siblings" class="experience-img">
+                    <h3>My Second Sister</h3>                  
+                    <p>Her name is <strong>Nur Hanim Izatty</strong> who is studying at the University of Malaya as a degree student in history. She is very loving and likes to joke with all her siblings and her also good at makeup.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/jannah.jpg" alt="Mother" class="experience-img">
+                    <h3>My Youngest Sister</h3>
+                    <p>Her name is <strong>Nur Jannah Atyrah</strong> who is continuing her studies at IPG. I am very close to her because we are only two years apart. We always exchange stories and always understand each other.</p>
+                </div>
+
+                <div class="experience-item">
+                    <img src="images/iman.jpg" alt="Father" class="experience-img">
+                    <h3>My Youngest Brother</h3>
+                    <p>His nama is <strong>Muhammad Iman Hakim</strong>.He is 10 years old and still in school. This younger brother of mine really likes to fight with my second older brother. Iman is also very loving and will always cheer me up if I am sad.</p>
+                </div>
+						
+<audio controls autoplay>
+  <source src="horse.ogg" type="audio/ogg">
+  <source src="audio/audiogal.mp3" type="audio/mpeg">
+</audio>
+            </div>
+        </section>
+        <div class="emoji-line">🌸🌷🌺🌼🌸🌷🌺🌼</div>
+
+    </main>
+
+    <button onclick="topFunction()" id="scrollBtn" title="Go to top">↑</button>
+
+    <footer>
+        © 2025 Nany's Space | Designed with 🌸 by Hanany Isyirah
+    </footer>
+
+    <script>
+    var scrollBtn = document.getElementById("scrollBtn");
+
+    window.onscroll = function() {scrollFunction()};
+
+    function scrollFunction() {
+      if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        scrollBtn.style.display = "block";
+      } else {
+        scrollBtn.style.display = "none";
+      }
+    }
+
+    function topFunction() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+    </script>
+
+</body>
+</html>
+
